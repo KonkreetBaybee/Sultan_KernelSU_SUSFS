@@ -9,16 +9,19 @@ on:
       codename:
         required: true
         type: string
+        default: 'gs201'
       repo:
         required: true
         type: string
-        default: android_kernel_google_gs201
+        default: 'android_kernel_google_gs201'
       android_version:
         required: true
         type: string
+        default: 'android16'
       kernel_version:
         required: true
         type: string
+        default: '6.12'
 
 jobs:
   build-kernel-sultan-kernelsu-susfs:
