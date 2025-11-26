@@ -12,6 +12,7 @@ on:
       repo:
         required: true
         type: string
+        default: android_kernel_google_gs201
       android_version:
         required: true
         type: string
